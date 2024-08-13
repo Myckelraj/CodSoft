@@ -1,0 +1,98 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #7c7b76;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #1f2029;
+  padding: 10px 24px;
+  border-radius: 20px;
+  width: 600px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+}
+.container .box {
+  width: 100%;
+  display: flex;
+}
+.box div {
+  width: 100%;
+}
+
+select {
+  width: 95%;
+  height: 50px;
+  font-size: 1.4em;
+  cursor: pointer;
+  background-color: rgb(255, 20, 149);
+  outline: none;
+  color: rgb(255, 255, 255);
+  margin: 0.2em 0;
+  padding: 0 1em;
+  border-radius: 10px;
+  border: none;
+}
+
+input {
+  width: 88%;
+  height: 40px;
+  font-size: 1em;
+  margin: 0.2em 0;
+  border-radius: 10px;
+  border: none;
+  background: #cccccc;
+  outline: none;
+  padding: 0 1em;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  background-color: #ffffff;
+  color: #102770;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+/* Reset Button Styles */
+#resetBtn {
+  background-color: #f44336; /* Red color */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Align with other buttons */
+  font-size: 16px; /* Adjust font size */
+  margin: 5px; /* Space around button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+#resetBtn:hover {
+  background-color: #c62828; /* Darker red on hover */
+}
